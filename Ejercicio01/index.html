@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecetasTop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Cabecera de la pagina, normalmente colocamos el titulo
+ y el logo de la pagina, en este caso se ha incluido una etiqueta "aside" que incluye un menu de navegacion en la parte inferior -->
+<header>
+  <div class="title">Recetas Top</div>
+  <aside >
+    <div>
+      <ul class="menu">
+        <!-- Se ha incluido una lista de elementos "li" que contienen un enlace "a" a las diferentes secciones de la pagina -->
+        <li class="menuItem"><a href="index.html">Inicio</a></li>
+        <li class="menuItem"><a href="index.html">Recetas</a></li>
+        <li class="menuItem"><a href="index.html">Acerca de</a></li>
+      </ul>
+    </div>
+  </aside>
+</header>
+
+<body>
+  <!-- Seccion de la pagina que contiene la receta de la sopa juliana, se ha incluido un titulo "h1" y tres secciones "div" que contienen la lista de ingredientes, la imagen de la receta y el proceso de elaboracion -->
+  <section class="RecetaCard">
+    <h1 class="titleReceta">Receta para una Sopa Juliana</h1>    
+    <div class="ingredientsCard">
+      <h2 class="titleCard">Lista de ingredientes</h2>
+      <ul class="ingredientsList">
+        <li>1Kg de cebollas</li>
+        <li>1Kg de zanahorias</li>
+        <li>500gr de patatas</li>
+        <li>100gr de apio o puerro</li>
+        <li>3l de caldo de carne</li>
+        <li>150gr de mantequilla</li>
+        <li>1 cucharada de harina</li>
+        <li>1 pizca de sal</li>
+        <li>Tomillo y cominos</li>
+        <li>1 hoja de laurel</li>
+        <li>Pimienta</li>
+        <li>1 diente de ajo</li>
+      </ul>      
+    </div>
+    <div class="imageCard">
+        <img src="./img/38665.jpg" alt="Sopa Juliana">
+      </div>
+    <div class="processCard">
+      <h2 class="titleCard">Proceso de elaboración</h2>
+      <ul>
+        <li class="processItem">Pelar y partir las verduras en juliana.</li>
+        <li class="processItem">Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</li>
+        <li class="processItem">Añadir la harina sin dejar de remover.</li>
+        <li class="processItem">Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</li>
+        <li class="processItem">Dejar cocer a fuego lento durante unos 25 minutos.</li>
+        <li class="processItem">Dejar reposar y enfriar.</li>
+      </ul>
+    </div>
+  </section>
+</body>
+<!-- Pie de la pagina, normalmente se incluye informacion de contacto y derechos de autor -->
+<footer>
+  <div>
+    <p>Recetas Top - 2024</p>
+    <p>Derechos de autor: Miguel Sanchez para Tarea02 de LMSGI - ASIR 24/25 - CIDEAD</p>
+    <p><img src="img/logoCidead.jpeg" alt="Logo CIDEAD" class="logoCidead"></p>
+    </div>
+</footer>
+</html>

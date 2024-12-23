@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid darkblue;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4f67f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+.RecetaCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+  padding: 10px;
+  margin-top: 20px;
+}
+.ingredientsCard {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-self: center;
+  border: 1px solid darkblue;
+  max-width: 350px;
+}
+
+.ingredientsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.processCard {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-self: center;
+  border: 1px solid darkblue;
+  grid-column: span 2;
+  
+}
+
+.processItem{
+  margin-bottom: 10px;
+  list-style: disc;
+}
+
+.titleReceta {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+footer {
+  background-color: #4f67f0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.logoCidead {
+  width: 100px;
+  margin-top: 20px;
+}
+
+
+
