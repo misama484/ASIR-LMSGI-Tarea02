@@ -89,7 +89,7 @@ p{
 
 .projects{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px;
@@ -98,6 +98,8 @@ p{
   display: flex;
   flex-direction: column;
   border: 2px solid red;
+  width: 50%; /* Ocupa el 50% del contenedor */
+  margin: 10px;
 }
 .projectTitle{
   color: white;
@@ -107,13 +109,15 @@ p{
   justify-content: center;
 }
 .fotoProyecto{
-  width: 400px;
-  height: 450px;
+  width: 150px;
+  height: 120px;
   margin: 10px;
+  flex-shrink: 0; /* Evita que la imagen se reduzca */
 }
 .projectContent {
   display: flex; /* Utiliza flexbox para alinear los elementos en fila */
-  justify-content: space-between; /* Espacio entre los elementos */
+  justify-content: center; /* Espacio entre los elementos */
+  
 }
 
 .projectContent img {

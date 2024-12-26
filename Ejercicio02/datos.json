@@ -1,0 +1,605 @@
+
+{
+"datos": {
+  
+  "about": {
+    "nombre": "Miguel Sánchez",
+    "curriculum":"https://drive.google.com/file/d/1pCyh1XBG1QYzpWqrl1-bgJhxXIGLSstK/view?pli=1",
+    "title": "Sobre mi",
+    "cargos":[ "Desarrollador junior", "SysAdmin" ],
+    "description": "Desarrollador junior, apasionado de la informática y la tecnología, siempre me gusto saber como funcionan las cosas e intentar mejorarlas o adaptarlas a mis necesidades. Hace unos años me interesé por la programación y descubrí una nueva pasión, así que decidí dedicarme a ella al completo.",
+
+    "description2": ["Técnico superior en Desarrollo de Aplicaciones Multiplataforma, sin mucha experiencia laboral en el ámbito del desarrollo, pero con muchísima motivación, ganas de aprender y evolucionar como desarrollador. Me gusta mucho aprender y soy muy curioso.", 
+    "Llevo trabajando de técnico informático y administrador de redes desde el 2008 por lo que tengo cierta experiencia en el sector y aunque sin titulación, sí que dispongo de varias certificaciones y cursos que demuestran mis capacidades.", 
+    "Gracias a mi entorno laboral estos últimos años he desarrollado unas capacidades muy buenas en el trabajo bajo presión, la adaptabilidad a cambios y el trabajo en equipo, adaptándome muy bien a toda clase de situaciones sin perder de vista el objetivo y comprendiendo la manera más eficaz de conseguirlo.", 
+    "En el ámbito personal soy una persona muy alegre que disfruta de cada momento, sea el que sea. Intento encontrar siempre el lado positivo de las cosas y buscando siempre la solución a los problemas."],
+
+    "linkedin":"https://www.linkedin.com/in/sanchezmartinezmiguel/",
+    "github":"https://github.com/misama484",
+    "facebook": "https://www.facebook.com/sanchezdevelopmentsAlzira",
+
+    "info": [
+      {
+        "fieldName": "Nombre",
+        "fieldValue": "Miguel Sánchez",
+        "icon": "<FaRegUser />"
+      },
+      {
+        "fieldName": "Experiencia",
+        "fieldValue": "3+ años",
+        "icon": "<FaRocket />"
+      },
+      {
+        "fieldName": "Telefono",
+        "fieldValue": "607381404",
+        "icon": "<FaMobileAlt />"
+      },
+      {
+        "fieldName": "Email",
+        "fieldValue": "contacto@miguelsanchez.dev",
+        "icon": "<MdAlternateEmail />"
+      },
+      {
+        "fieldName": "Ubicacion",
+        "fieldValue": "Alzira, Valencia",
+        "icon": "<FaMapMarkedAlt />"
+      },
+      {
+        "fieldName": "Idiomas",
+        "fieldValue": "Ingles, Castellano, Valenciano",
+        "icon": "<LuLanguages />"
+      }
+    ]
+  },
+  "skills": {
+   "skills": [
+    {"name": "HTML", "icon": "<FaHtml5 />"},
+    {"name": "CSS", "icon": "<FaCss3 />"},
+    {"name": "Javascript", "icon": "<FaJs />"},
+    {"name": "React", "icon": "<FaReact />"},
+    {"name": "Figma", "icon": "<FaFigma />"},
+    {"name": "Node.js", "icon": "<FaNodeJs />"},
+    {"name": "TailwindCSS", "icon": "<SiTailwindcss />"},
+    {"name": "Next.js", "icon": "<SiNextdotjs />"}
+  ]
+},
+
+  "experience": {
+  "title": "Mi experiencia",
+  "description": "Como desarrollador recien titulado, no dispongo todavia de una amplia experiencia laboral en el sector. Si que dispongo de unos cuantos años de experiencia laboral en el sector TI",
+
+  "items": [
+    {
+      "icon": "/assets/assets/resume/badge.svg",
+      "company": "Ministerio de Defensa - Ejercito de Tierra",
+      "position": "Tecnico Informatico",
+      "date": "2008 - Actualidad",
+      "description": "Implantación y despliegue de redes desde 0, Planificación y despliegue de tendido y equipos, configuración de servidores y servicios para lograr la interoperabilidad total de los usuarios, reparación y mantenimiento de equipos y sistemas.",
+      "functions":[
+        "Mantenimiento y Administración de Equipos informáticos.",
+        "Mantenimiento y Administración de equipos de electrónica de red.",
+        "Administración de sistemas.",
+        "Implantación, configuración y despliegue de redes.",
+        "Despliegue y mantenimiento de redes de F.O.",
+        "Despliegue y mantenimiento de redes satelitales.",
+        "AWS",
+        "EC2"
+      ]
+    },
+    {
+      "icon": "/assets/assets/resume/badge.svg",
+      "company": "Inired",
+      "position": "Desarrollador en Practicas",
+      "date": " Marzo-2024 - Mayo-2024",
+      "description": "Practicas formativa GD-DAM donde desarrolle junto con mis compañeros de practicas un proyecto para una tienda online, desde el inicio participando en todo el proceso del desarrollo centrandonos mayormente en el frontend y en el backend.",
+      "functions":[
+        "Desarrollo FrontEnd con React haciendo uso de la Libreria DevExtreme",
+        "Diseño UX/UI del proyecto con Figma",
+        "Desarrollo Back-end con Java, Spring/Springboot",
+        "Base de datos SQL con PostgreeSQL",
+        "Uso de Git/Github para control de versiones",
+        "Trello para control de tareas/tickets"
+      ]
+    },
+    {
+      "icon": "/assets/assets/resume/badge.svg",
+      "company": "Freelance",
+      "position": "Full-stack developer",
+      "date": "2021 - Actualidad",
+      "description": "Desarrollo de aplicaciones web y páginas web para diferentes clientes, desarrollando parte frontend y backend.",
+      "functions":[
+        "Desarrollo FrontEnd con React, Angular",
+        "Frameworks como Vite, Next, Astro, etc...",
+        "Desarrollo Backend con Java, Spring, Node, etc...",
+        "Bases de datos tanto SQL como NoSQL",
+        "Despliegue de webs en servidores",
+        "Despliegue de aplicaciones en tiendas de apps"
+      ]
+    }
+  ]
+},
+
+"education": {
+  "title": "Educacion y titulos",
+  "description": "Estos son los titulos y cursos que he realizado hasta la fecha",
+  "items":[
+  {
+    "id": 0,
+    "img": "https://www.floridauniversitaria.es/wp-content/uploads/2022/10/logo-trans.png",
+    "school": "Florida Universitaria, Valencia",
+    "date": "Oct 2021 - May 2024",
+    "grade": "Tecnico Superior en Desarrollo de aplicaciones Multiplataforma",
+    "desc": "Tecnico superior en desarrollo de aplicaciones multiplataforma. He aprendido tecnologias como Java, React, Unity, etc; asi como Git, GitHub, Scrum, etc. ",
+    "degree": ""
+  },
+  {
+    "id": 1,
+    "img": "https://i0.wp.com/engineering.tiu.edu.iq/computer/wp-content/uploads/2019/01/ccna-routing-switching.jpg?fit=700%2C506&ssl=1",
+    "school": "Academia Cisco RT-21, Valencia",
+    "date": "Sep 2018 - Dic 2019",
+    "grade": "Cisco CCNA Routing & Switching",
+    "desc": "Certificacion Cisco CCNA R&S consegida en la academia Cisco RT-21 en Valencia",
+    "degree": ""
+  },
+  {
+    "id": 2,
+    "img": "https://www.ubt-uni.net/wp-content/uploads/2019/02/IT-ESSENTIALS.jpg",
+    "school": "Academia Cisco RT-21, Valencia",
+    "date": "Nov 2015 - Dic 2015",
+    "grade": "Curso Cisco IT Essentials",
+    "desc": "Certificacion Cisco IT Essentials conseguida en la academia Cisco RT-21 en Valencia.",
+    "degree": ""
+  },
+  {
+    "id": 2,
+    "img": "https://efiap.carm.es/web/imagen?ALIAS=IMGR4&IDIMAGEN=107736",
+    "school": "Academia online Instituno Nacional de la Administracón Pública - INAP",
+    "date": "Oct 2023 - Nov 2023",
+    "grade": "Curso Python avanzado",
+    "desc": "Curso de Puthon avanzado (Matplotlib, Numpy, persistencia de datos, Concurrencia, Interfaces, Web, Machine Learning).",
+    "degree": ""
+  }
+]
+},
+
+"proyectos": [
+  {
+    "id": 0,
+    "title": "Platformer",
+    "date": "2022",
+    "description":
+      "Juego de plataformas desarrollado en Unity",
+    "image":
+      "https://github.com/misama484/PlatFormer/raw/main/Captura%20de%20pantalla%202023-01-17%20111700.png",
+    "tags": ["Unity", "C#"],
+    "category": "game",
+    "github": "https://github.com/misama484/PlatFormer",
+    "webapp": "https://miguelsanchezdev.itch.io/pixelplatforms",
+    "member": [
+      {
+        "name": "Miguel Sanchez",
+        "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+        "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+        "github": "https://github.com/misama484"
+      }
+    ]
+  },
+
+  {
+   "id": 1,
+   "title": "Gestion de Biblioteca",
+   "date": "2022",
+   "description":
+     "Pequeña aplicacion para la gestion de una biblioteca, hecha en Java para entornos Windows",
+   "image":
+     "https://github.com/misama484/AAD/blob/AEVT4_Gest_Biblio_Mongo/Captura%20de%20pantalla%202023-01-17%20112455.png?raw=true",
+   "tags": [
+     "Java",
+     "MongoDB",
+     "Windows"
+   ],
+   "category": "windows",
+   "github": "https://github.com/misama484/AAD/tree/AEVT4_Gest_Biblio_Mongo",
+   "webapp": "",
+   "member": [
+      {
+        "name": "Miguel Sanchez",
+        "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+        "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+        "github": "https://github.com/misama484"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "FlappyBird",
+    "date": "2022",
+    "description":
+      "Divertido juego donde un lindo pajarraco atraviesa tuberias sumando puntos. Hecho en Unity para Android",
+    "image":
+      "https://github.com/misama484/FlappyBird/blob/main/Captura%20de%20pantalla%202023-01-17%20110624.png?raw=true",
+    "tags": [
+      "Unity",
+      "C#",
+      "Android"
+    ],
+    "category": "android",
+    "github": "https://github.com/misama484/FlappyBird",
+    "webapp": "https://github.com/misama484/FlappyBird/blob/9e1882593cf5b119133610a8b91b8b57e407f23b/flappyFinal.apk",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 3,
+    "title": "Shooter 3D",
+    "date": "2022",
+    "description":
+      "Shooter FPS en 3d - En desarrollo -",
+    "image":
+      "https://github.com/misama484/FPS-3D/blob/main/Capturadepantalla2022-12-23200511.png?raw=true",
+    "tags": [
+      "Unity",
+      "C#",
+      "Windows"
+    ],
+    "category": "game",
+    "github": "https://github.com/misama484/FPS-3D",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 4,
+    "title": "Space Invaders",
+    "date": "2021",
+    "description":
+      "Clasico juego de marcianitos",
+    "image":
+      "https://github.com/misama484/SpaceInvadersScripts/blob/main/Capturadepantalla2023-01-17112142.png?raw=true",
+    "tags": [
+      "Unity",
+      "C#",
+      "Android"
+    ],
+    "category": "game",
+    "github": "https://github.com/misama484/SpaceInvadersScripts",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 5,
+    "title": "Portfolio personal",
+    "date": "2022",
+    "description":
+      "Portfolio 2022, desarrollado en React, StyledComponents y MaterialUI",
+    "image":
+      "https://github.com/misama484/PortFolioReact3/blob/main/CapturaPortfolio.png?raw=true",
+    "tags": [
+      "React",
+      "MUI",
+      "StyledComponents"
+    ],
+    "category": "web",
+    "github": "https://github.com/misama484/PortFolioReact3",
+    "webapp": "https://miguelsanchez.dev",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },   
+
+   {
+    "id": 6,
+    "title": "Quizz Harry Potter",
+    "date": "2023",
+    "description":
+      "App desarrollada en React Native, con un pequeño juego de preguntas y una pequeña base de datos que se conecta a una API para mostrar informacion sobre los personajes de la saga y los hechizos",
+    "image":
+      "https://raw.githubusercontent.com/misama484/hpquizz/master/imagesWeb/1.png?token=GHSAT0AAAAAACJRCOTH2MMGRWQ6DNETH33MZKTKGIA",
+    "tags": [
+      "React Native",
+      "MUI",
+      "React Native Paper"
+    ],
+    "category": "android",
+    "github": "https://github.com/misama484/hpquizz",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 7,
+    "title": "NotIces",
+    "date": "2023",
+    "description":
+      "App desarrollada en React Native, muestra una seleccion de noticias filtradas por categorias ademas de una prediccion del tiempo.",
+    "image":
+      "https://raw.githubusercontent.com/misama484/notices/master/ImagenesWeb/1.png?token=GHSAT0AAAAAACJRCOTHJKVNXXQZIJDA5DLUZKTJQXA",
+    "tags": [
+      "React Native",
+      "MUI",
+      "React Native Paper"
+    ],
+    "category": "android",
+    "github": "https://github.com/misama484/notices",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 8,
+    "title": "SimonSay",
+    "date": "2023",
+    "description":
+      "App desarrollada en React, el mitico juego de SimonSay, utilizando ReactHooks y TailwindCSS.",
+    "image":
+      "https://github.com/misama484/SimonSayReact/blob/main/src/assets/simonLogo.png?raw=true",
+    "tags": [
+      "React",
+      "TailwindCSS"
+    ],
+    "category": "web",
+    "github": "https://github.com/misama484/SimonSayReact",
+    "webapp": "https://simonsay.miguelsanchez.dev",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 9,
+    "title": "HayRuta",
+    "date": "2024 ",
+    "description":
+      "Proyecto de final de grado. Aplicación para gestionar de una manera eficaz el compartir coche con compañeros de trabajo. Realizada con React Native y utilizando Firebase como backend",
+    "image":
+      "https://github.com/misama484/hayruta/blob/master/ImagenesWeb/logo.png?raw=true",
+    "tags": [
+      "React Native",
+      "Firebase"
+    ],
+    "category": "android",
+    "github": "https://github.com/misama484/hayruta",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 10,
+    "title": "Portfolio 2024",
+    "date": "2024 - En desarrollo",
+    "description":
+      "Portfolio personal desarrollado de nuevo con Next.js, TailwindCSS incorporando una funcionalidad de chat en linea.",
+    "image":
+      "https://github.com/misama484/portfolio20/blob/master/WebImages/FotoWeb.png?raw=true",
+    "tags": [
+      "React",
+      "TailwindCSS",
+      "Next.js"
+
+    ],
+    "category": "web",
+    "github": "https://github.com/misama484/portfolio20",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   },
+
+   {
+    "id": 11,
+    "title": "TakeFood",
+    "date": "2024 - En desarrollo",
+    "description":
+      "Sitio web para un negocio de comida a domicilio, centrado en pizzas, creado con React y TailwindCSS.",
+    "image":
+      "https://github.com/misama484/takefood/blob/Variante1/foto.png?raw=true",
+    "tags": [
+      "React",
+      "TailwindCSS"
+    ],
+    "category": "web",
+    "github": "https://github.com/misama484/takefood",
+    "webapp": "",
+    "member": [
+       {
+         "name": "Miguel Sanchez",
+         "img": "https://avatars.githubusercontent.com/u/86913656?v=4",
+         "linkedin": "https://www.linkedin.com/in/sanchezmartinezmiguel",
+         "github": "https://github.com/misama484"
+       }
+     ]
+   }
+
+
+],
+
+  "skillsInfo": {
+    "title": "Tecnologias",
+    "description": "Estas son las tecnologias con las que he trabajado y domino"
+  },
+
+  "skillsList": [
+    {
+      "title": "Frontend",
+      "skills": [
+        {
+          "name": "ReactJs",
+          "image": "FaReact"
+        },
+        {
+          "name": "HTML",
+          "image": "FaHtml5"
+        },
+        {
+          "name": "CSS",
+          "image": "FaCss3"
+        },
+        {
+          "name": "JavaScript",
+          "image": "FaJs"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "FaBootstrap"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "TbBrandTailwind"
+        },
+        {
+          "name": "Next.js",
+          "image": "SiNextdotjs"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        {
+          "name": "NodeJs",
+          "image": "FaNodeJs"
+        },
+        {
+          "name": "Python",
+          "image": "FaPython"
+        },
+        {
+          "name": "Java",
+          "image": "FaJava"
+        },
+        {
+          "name": "MySQL",
+          "image": "SiMysql"
+        },
+        {
+          "name": "MongoDB",
+          "image": "SiMongodb"
+        },
+        {
+          "name": "Firebase",
+          "image": "SiFirebase"
+        }
+      ]
+    },
+    {
+      "title": "Mobile",
+      "skills": [
+        {
+          "name": "Java",
+          "image": "FaJava"
+        },
+        {
+          "name": "React Native",
+          "image": "TbBrandReactNative"
+        },
+        {
+          "name": "XML",
+          "image": "TbFileTypeXml"
+        },
+        {
+          "name": "Android Studio",
+          "image": "SiAndroidstudio"
+        }
+      ]
+    },
+    {
+      "title": "Otros",
+      "skills": [
+        {
+          "name": "Git",
+          "image": "FaGit"
+        },
+        {
+          "name": "Github",
+          "image": "FaGithub"
+        },
+        {
+          "name": "Unity",
+          "image": "FaUnity"
+        },
+        {
+          "name": "Figma",
+          "image": "FaFigma"
+        }
+      ]
+    },
+    {
+      "title": "SysAdmin",
+      "skills": [
+        {
+          "name": "Windows Server",
+          "image": "SiWindows95"
+        },
+        {
+          "name": "Linux",
+          "image": "FaLinux"
+        },
+        {
+          "name": "AWS",
+          "image": "FaAws"
+        }
+      ]
+    }
+  ]
+}
+}
+
