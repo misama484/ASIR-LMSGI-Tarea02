@@ -7,13 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('aboutInfo').textContent = data.datos.about.description;
     
 
-    //Muestra info en seccion Estudios, creamos una funcion que genere un componente por cada elemento del array
+    //creamos una funcion que genere un componente por cada elemento del array para cada seccion de la pagina.
+    //ESTUDIOS
     const studiesContainer = document.getElementById('studiesContainer');
       data.datos.education.items.forEach(item => {
         const projectElement = document.createElement('article');
         projectElement.classList.add('project');
         projectElement.innerHTML = `
-          <div class="projectContent">
+          <div class="studyContent">
             <img class="fotoProyecto" src="${item.img}" alt="foto">
             <div class="projectTitleContainer">
               <h2 class="projectTitle">${item.grade}</h2>
@@ -24,8 +25,27 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         studiesContainer.appendChild(projectElement);
       });
-    
 
+    //EXPERIENCIA LABORAL
+    const experienceContainer = document.getElementById('projectsContainer');
+      data.datos.experience.items.forEach(item => {
+        const projectElement = document.createElement('article');
+        projectElement.classList.add('project');
+        projectElement.innerHTML = `
+          <div class="projectContent">
+            <img class="fotoProyecto" src="${item.image}" alt="foto">
+            <div class="projectTitleContainer">
+              <h2 class="projectTitle">${item.title}</h2>
+              <p>${item.date}</p>
+              <p class="projectInfo">${item.description}</p>
+            </div>
+          </div>
+          
+        `;
+        experienceContainer.appendChild(projectElement);
+      });
+    
+    //PROYECTOS
     const projectsContainer = document.getElementById('projectsContainer');
       data.datos.proyectos.forEach(item => {
         const projectElement = document.createElement('article');
@@ -35,10 +55,11 @@ document.addEventListener("DOMContentLoaded", function() {
             <img class="fotoProyecto" src="${item.image}" alt="foto">
             <div class="projectTitleContainer">
               <h2 class="projectTitle">${item.title}</h2>
-              <p>${item.description}</p>
+              <p>${item.date}</p>
+              <p class="projectInfo">${item.description}</p>
             </div>
           </div>
-          <p class="projectInfo">${item.desc}</p>
+          
         `;
         projectsContainer.appendChild(projectElement);
       });

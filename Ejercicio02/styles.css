@@ -115,14 +115,33 @@ p{
   margin: 10px;
   flex-shrink: 0; /* Evita que la imagen se reduzca */
 }
-.projectContent {
+.studyContent {
   display: flex; /* Utiliza flexbox para alinear los elementos en fila */
   justify-content: center; /* Espacio entre los elementos */
   
 }
 
+.studyContent img {
+  width: 30%; /* Ocupa el 50% del contenedor */
+}
+
+.studyContent h2 {
+  width: 50%; /* Ocupa el 50% del contenedor */
+  display: flex; /* Alinea el texto verticalmente */
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center; /* Centra el texto horizontalmente */
+  text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.projectContent {
+  display: flex; /* Utiliza flexbox para alinear los elementos en fila */
+  justify-content: center; /* Espacio entre los elementos */
+  height: 400px;
+}
+
 .projectContent img {
   width: 30%; /* Ocupa el 50% del contenedor */
+  height: 90%;
 }
 
 .projectContent h2 {
@@ -148,4 +167,13 @@ p{
   align-items: center;
   margin: 10px;
   border: 2px solid green;
+  width: 70%;
+}
+.projectInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 2px solid yellow;
 }
