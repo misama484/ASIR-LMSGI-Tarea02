@@ -133,6 +133,33 @@
     "degree": ""
   },
   {
+    "id": 0,
+    "img": "https://www.educacionfpydeportes.gob.es/.imaging/mte/mefp-theme/contenido-cim-pq/dam/mefp/mc/cidead/el-cidead/icono-largo/jcr:content/icono-largo.jpg.jpg",
+    "school": "CIEDAD, Madrid",
+    "date": "Oct 2024 - Actualidad",
+    "grade": "Tecnico Superior en Administración de Sistemas Informáticos en Red",
+    "desc": "Cursando actualmente el primer curso ",
+    "degree": ""
+  },
+  {
+    "id": 0,
+    "img": "https://www.educacionfpydeportes.gob.es/.imaging/mte/mefp-theme/contenido-cim-pq/dam/mefp/mc/cidead/el-cidead/icono-largo/jcr:content/icono-largo.jpg.jpg",
+    "school": "CIEDAD, Madrid",
+    "date": "Oct 2024 - Actualidad",
+    "grade": "Especializacion en inteligencia artificial y big data",
+    "desc": "Docker, Kubernetes, Python, Machine Learning, Deep Learning, Big Data, etc.",
+    "degree": ""
+  },
+  {
+    "id": 0,
+    "img": "https://www.uvigo.gal/themes/custom/uvigo/logo_footer.svg",
+    "school": "Universidad de Vigo, Vigo",
+    "date": "Oct 2024 - Actualidad",
+    "grade": "Curso avanzado en ciberoperaciones defensivas",
+    "desc": "Analisis de amenazas, ciberinteligencia, ciberseguridad, etc.",
+    "degree": ""
+  },
+  {
     "id": 1,
     "img": "https://i0.wp.com/engineering.tiu.edu.iq/computer/wp-content/uploads/2019/01/ccna-routing-switching.jpg?fit=700%2C506&ssl=1",
     "school": "Academia Cisco RT-21, Valencia",

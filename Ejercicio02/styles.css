@@ -57,6 +57,7 @@
   color: white;
   font-size: xx-large;
   font-weight: bold;
+  text-align: center;
   margin: 10px;
 }
 .fotoPrincipal{
@@ -87,17 +88,17 @@ p{
   border: 2px solid red;
 }
 
-.projects{
+.sectionContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 10px;
 }
 .project{
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  justify-content: center;
+  border: 2px solid blue;
   width: 50%; /* Ocupa el 50% del contenedor */
   margin: 10px;
 }
@@ -106,7 +107,7 @@ p{
   font-size: xx-large;
   font-weight: bold;
   margin: 10px;
-  justify-content: center;
+  text-align: center;
 }
 .fotoProyecto{
   width: 150px;
@@ -121,7 +122,7 @@ p{
 }
 
 .projectContent img {
-  width: 50%; /* Ocupa el 50% del contenedor */
+  width: 30%; /* Ocupa el 50% del contenedor */
 }
 
 .projectContent h2 {
@@ -130,4 +131,21 @@ p{
   align-items: center; /* Centra el texto verticalmente */
   justify-content: center; /* Centra el texto horizontalmente */
   text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.studiesContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.projectTitleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 2px solid green;
 }
