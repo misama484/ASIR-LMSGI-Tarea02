@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Hotel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="principalTitle">Formulario de Reserva de Hotel</h1>
+  </header>
+
+  <section class="principalSection" >
+    <form class="formContainer" id="reservaHotel">
+      <fieldset class="formSection">
+        <legend>Datos Personales</legend>
+        <div class="divPersonalInput">
+          <label for="nombre">Nombre:</label>
+          <input class="dataInput" type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="divPersonalInput">
+          <label for="apellidos">Apellidos:</label>
+          <input class="dataInput" type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="divPersonalInput">
+          <label for="telefono">Teléfono de Contacto:</label>
+          <input class="dataInput" type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="divPersonalInput">
+          <label for="email">E-mail:</label>
+          <input class="dataInput" type="email" id="email" name="email" required>
+        </div>
+        <div class="divPersonalInput">
+          <label for="noches">Número de Noches:</label>
+          <input class="dataInput" type="number" id="noches" name="noches" min="1" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="formSection">
+        <legend>Fechas de Reserva</legend>
+        <div class="divInput">
+          <label for="fechaEntrada">Fecha de Entrada:</label>
+          <input class="dateInput" type="date" id="fechaEntrada" name="fechaEntrada" required>
+        </div>
+        <div class="divInput">
+          <label for="fechaSalida">Fecha de Salida:</label>
+          <input class="dateInput" type="date" id="fechaSalida" name="fechaSalida" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="formSection">
+        <legend>Tipo de Habitación</legend>
+        <div class="divInput">
+          <input type="radio" id="simple" name="tipoHabitacion" value="simple" required>
+          <label for="simple">Simple</label>
+        </div>
+        <div class="divInput">
+          <input type="radio" id="doble" name="tipoHabitacion" value="doble">
+          <label for="doble">Doble</label>
+        </div>
+        <div class="divInput">
+          <input type="radio" id="matrimonio" name="tipoHabitacion" value="matrimonio">
+          <label for="matrimonio">Matrimonio</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="formSection">
+        <legend>Servicios Adicionales</legend>
+        <div class="divInput">
+          <input type="checkbox" id="desayuno" name="servicios" value="desayuno">
+          <label for="desayuno">Desayuno</label>
+        </div>
+        <div class="divInput">
+          <input type="checkbox" id="comida" name="servicios" value="comida">
+          <label for="comida">Comida</label>
+        </div>
+        <div class="divInput">
+          <input type="checkbox" id="cena" name="servicios" value="cena">
+          <label for="cena">Cena</label>
+        </div>
+        <div class="divInput">
+          <input type="checkbox" id="camaSupletoria" name="servicios" value="camaSupletoria">
+          <label for="camaSupletoria">Cama Supletoria</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="formSection">
+        <legend>Comentarios</legend>
+        <div class="divInput">
+          <textarea class="textareaInput" id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        </div>
+      </fieldset>
+
+      <div class="buttonSection">
+        <button class="buttonInputClean" type="reset">Limpiar</button>
+        <button class="buttonInputSend" type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Reserva de Hotel</p>
+  </footer>
+</body>
+</html>
