@@ -1,4 +1,3 @@
-// filepath: /I:/ASIR2024/LMSGI/t2/Tarea02/Ejercicio02/script.js
 //Muestra info en seccion About
 document.addEventListener("DOMContentLoaded", function() {
   fetch('datos.json')
@@ -27,20 +26,18 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
     //EXPERIENCIA LABORAL
-    const experienceContainer = document.getElementById('projectsContainer');
+    const experienceContainer = document.getElementById('experienceContainer');
       data.datos.experience.items.forEach(item => {
         const projectElement = document.createElement('article');
         projectElement.classList.add('project');
         projectElement.innerHTML = `
-          <div class="projectContent">
-            <img class="fotoProyecto" src="${item.image}" alt="foto">
-            <div class="projectTitleContainer">
-              <h2 class="projectTitle">${item.title}</h2>
-              <p>${item.date}</p>
-              <p class="projectInfo">${item.description}</p>
-            </div>
-          </div>
-          
+          <div class="experienceContent">           
+            <h2 class="projectTitle">${item.company}</h2>
+            <h3>${item.position}</h3>
+            <p>${item.date}</p>
+            <p class="projectInfo">${item.description}</p>
+            <p>${item.functions}</p>            
+          </div>          
         `;
         experienceContainer.appendChild(projectElement);
       });

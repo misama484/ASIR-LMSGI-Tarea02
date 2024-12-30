@@ -6,7 +6,6 @@
   font-family: "jetbrains mono", monospace;
 }
 .principalTitle{
-  border: 2px solid red;
   color: white;
   text-align: center;
   padding: 10px;
@@ -27,8 +26,7 @@
 }
 .menu {
   position: fixed;
-  top: 200px;
-  left: 0;
+  top: 100px;
   left: 0;
   width: 200px; 
   height: 100%; 
@@ -85,22 +83,24 @@ p{
   align-items: center;
   margin: 10px;
   width: 50%;
-  border: 2px solid red;
 }
 
 .sectionContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 .project{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid blue;
-  width: 50%; /* Ocupa el 50% del contenedor */
+  border: 2px solid #3dadf2;
+  border-radius: 20px;
+  width: 50%;
   margin: 10px;
+  padding: 10px;
 }
 .projectTitle{
   color: white;
@@ -112,46 +112,52 @@ p{
 .fotoProyecto{
   width: 150px;
   height: 120px;
-  margin: 10px;
-  flex-shrink: 0; /* Evita que la imagen se reduzca */
+  margin: 10px;  
 }
 .studyContent {
-  display: flex; /* Utiliza flexbox para alinear los elementos en fila */
-  justify-content: center; /* Espacio entre los elementos */
-  
+  display: flex;
+  justify-content: center;   
 }
-
 .studyContent img {
-  width: 30%; /* Ocupa el 50% del contenedor */
+  width: 30%;
 }
-
 .studyContent h2 {
-  width: 50%; /* Ocupa el 50% del contenedor */
-  display: flex; /* Alinea el texto verticalmente */
-  align-items: center; /* Centra el texto verticalmente */
-  justify-content: center; /* Centra el texto horizontalmente */
-  text-align: center; /* Asegura que el texto esté centrado */
+  width: 50%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .projectContent {
-  display: flex; /* Utiliza flexbox para alinear los elementos en fila */
-  justify-content: center; /* Espacio entre los elementos */
+  display: flex;
+  justify-content: center;
   height: 400px;
 }
-
 .projectContent img {
-  width: 30%; /* Ocupa el 50% del contenedor */
+  width: 30%;
   height: 90%;
 }
-
 .projectContent h2 {
-  width: 50%; /* Ocupa el 50% del contenedor */
-  display: flex; /* Alinea el texto verticalmente */
-  align-items: center; /* Centra el texto verticalmente */
-  justify-content: center; /* Centra el texto horizontalmente */
-  text-align: center; /* Asegura que el texto esté centrado */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
+.experienceContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.experienceContent h3{
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px;
+  text-decoration: underline;
+}
 .studiesContent{
   display: flex;
   flex-direction: column;
@@ -159,14 +165,12 @@ p{
   align-items: center;
   margin: 10px;
 }
-
 .projectTitleContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px;
-  border: 2px solid green;
   width: 70%;
 }
 .projectInfo{
@@ -175,5 +179,28 @@ p{
   justify-content: center;
   align-items: center;
   margin: 10px;
-  border: 2px solid yellow;
 }
+.contactTable {
+  width: 50%;
+  border-collapse: collapse; /* Colapsa los bordes de la tabla par que esten juntos */
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+.contactTable th, .contactTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+}
+.contactTable th {
+  background-color: #3dadf2;
+  color: white;
+  text-align: center;
+}
+.contactTable a {
+  color: inherit; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Quita el subrayado */
+}
+
+
+
